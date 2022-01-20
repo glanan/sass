@@ -1,0 +1,56 @@
+@import "variables";
+
+body {
+    background-color: $colorPrimario ;
+}
+
+.cabecero {
+    background-color: $colorSecundario;
+}
+
+li {
+    display: inline-block;
+    padding: 2rem;
+    a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+}
+
+a:hover {
+    border-bottom: 1px solid blanchedalmond;
+}
+
+
+.telescopio {
+    background-color: $colorSecundario;
+
+    img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#grilla {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+section{
+text-align: center;
+
+       h5 {
+       color: aliceblue;
+         }
+
+       p {
+       color: aliceblue;
+         }
+
+       img {
+       margin-left:45%;
+       margin-top: 1rem;
+}
+}

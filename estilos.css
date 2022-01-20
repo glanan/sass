@@ -1,0 +1,61 @@
+body {
+  background-color: #cb5ccf;
+}
+
+.cabecero {
+  background-color: #783aa1;
+}
+
+li {
+  display: inline-block;
+  padding: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+a:hover {
+  border-bottom: 1px solid blanchedalmond;
+}
+
+.telescopio {
+  background-color: #783aa1;
+}
+
+.telescopio img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#grilla {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+section {
+  text-align: center;
+}
+
+section h5 {
+  color: aliceblue;
+}
+
+section p {
+  color: aliceblue;
+}
+
+section img {
+  margin-left: 45%;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=estilos.css.map */
